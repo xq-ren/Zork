@@ -25,12 +25,13 @@ public class Inventory {
         inventory.add(item);
     }
 
-    public void removeFromInv(Item item) {
+    public boolean removeFromInv(Item item) {
         for (int i = 0; i < inventory.size(); i++) {
             if (item.getName().equals(inventory.get(i).getName()) && item.getWeight() == (inventory.get(i).getWeight())) {
                 inventory.remove(i);
             }
         }
+        return false;
     }
 
     public void getInventory(){

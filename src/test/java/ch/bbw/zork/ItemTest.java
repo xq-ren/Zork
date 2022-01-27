@@ -3,22 +3,10 @@ package ch.bbw.zork;
 import junit.framework.TestCase;
 
 public class ItemTest extends TestCase {
+    private Item item = new Item();
 
     public void testTestGetName() {
-    }
-
-    public void testTestSetName() {
-    }
-
-    public void testGetDescription() {
-    }
-
-    public void testSetDescription() {
-    }
-
-    public void testGetWeight() {
-    }
-
-    public void testSetWeight() {
+        item.getName();
+        item.setName("hammer");
     }
 }
