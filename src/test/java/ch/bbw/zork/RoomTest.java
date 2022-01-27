@@ -1,4 +1,12 @@
 package ch.bbw.zork;
 
-public class RoomTest {
+import junit.framework.TestCase;
+
+public class RoomTest extends TestCase {
+
+    public void testAdd() {
+    }
+
+    public void testGetItem() {
+    }
 }
