@@ -1,7 +1,5 @@
 package ch.bbw.zork;
 
-import java.util.ArrayList;
-
 public class Item {
 	private String name;
 	private String description;
@@ -32,12 +30,6 @@ public class Item {
 	}
 
 
-	public void removeItem(Item item, ArrayList<Item> roomItems) {
-      for(int i=0;i<roomItems.size();i++) {
-             if(roomItems.get(i).equals(item))
-                   roomItems.remove(i);
-      }
-    }
 
 	public Item stringToItem(String aString) {
       Item item;
