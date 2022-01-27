@@ -29,22 +29,4 @@ public class Item {
 		this.weight = weight;
 	}
 
-
-
-	public Item stringToItem(String aString) {
-      Item item;
-      if(!isItem(aString)) {
-             return null;
-      }else {
-             item = new Item();
-             return item;
-      }
-    }
-
-    public boolean isItem(String aString) {
-      if(aString.equals(name))
-             return true;
-      return false;
-    }
-
 }
